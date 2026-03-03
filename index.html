@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Diana</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CV</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="home" class="home">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpg" alt="">
+            </div>
+            <h1>Diana Gomes</h1>
+            <h2>COMPUTER ENGINEER | WEB DEVELOPER | UX SPECIALIST</h2>
+            <div class="redes">
+                <a href="https://github.com/DiaSisi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/diasisi/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="aboutme" class="aboutme">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hi I'm Diana Gomes!</span> I'm an enthusiastic Computer Engineer passionate about transforming ideas into innovative solutions. Proficient in C, C++, HTML, CSS, JS, PHP, and always eager to explore new technologies to create impactful projects!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>CONTACT INFORMATION</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            13-10-1998
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +58 4241945619
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            diasisi.dev@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.diasisi.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Caracas - Venezuela
+                        </li>
+                    <h3>Languages</h3>
+                        
+                        <li>
+                            <strong>Spanish</strong>
+                            Native
+                        </li>
+                        <li>
+                            <strong>English</strong>
+                            C1 (Advanced)
+                        </li>
+                        <li>
+                            <strong>Portuguese</strong>
+                            B2 (Upper-Intermediate)
+                        </li>
+                        
+                        <li>
+                            <strong>Mandarin Chinese</strong>
+                            A1 (Beginner)
+                        </li>
+                        </ul>
+                    </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>SWIMMING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>READING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-android"></i>
+                            <span>ANDROID</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-language"></i>
+                            <span>LANGUAGES</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="./img/resume.pdf">
+                VIEW RESUME <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML, CSS & Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>86%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptability</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsibility & Accountability</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Problem Solving & Leadership</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>B.S. in Computer Engineering</h4>
+                        <span class="casa">Universidad Alejandro de Humboldt.</span>
+                        <span class="fecha">2020-2023</span>
+                        <p>"ProChile Management System": Management system for the ProChile Trade Office in Venezuela, focused on optimizing diplomatic flows and document automation.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Postgraduate Diploma in Frontend and Backend Programming</h4>
+                        <span class="casa">Universidad Central de Venezuela.</span>
+                        <span class="fecha">2026 - Present</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <h3>Certifications</h3>
+                      <div class="item izq">
+                        <h4>Platzi</h4>
+                        <span class="fecha">2023 - Present</span>
+                        <p>Professional Course in Git and GitHub, Frontend Development, and IT Security.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                        <div class="item izq">
+                        <h4>Lexpin</h4>
+                        <span class="fecha">2024 - 2025</span>
+                        <p>Honorable Mention in UI/UX Design within the Web Programming course.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        </div>
+                        <div class="item izq">
+                        <h4>Microsoft Professional Training | GoeTech Academy (Fad Juventud)</h4>
+                        <span class="fecha">2026 - present</span>
+                        <li><p>Cybersecurity Itinerary: SC-900 · Microsoft Security, Compliance, and Identity Fundamentals (In Progress).</p></li>
+                        <li><p>Artificial Intelligence Itinerary: AI-900 · Microsoft Azure AI Fundamentals (In Progress).</p></li>
+                        <li><p>Data Analysis Itinerary: DP-900 · Microsoft Azure Data Fundamentals (In Progress).</p></li>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Technical Experience and Internships</h3>
+                    <div class="item der">
+                        <h4>Software Development Intern</h4>
+                        <span class="casa">Megasoft</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <li>
+                        <p> Led the implementation of an identity and access management project using Keycloak. </p>
+                        </li>
+                        <li>
+                        <p> Configured authentication and authorization protocols to strengthen application security. </p>
+                        </li>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>IT Intern</h4>
+                        <span class="casa">Soutec</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <li>
+                        <p>Provided support in technical assistance and corporate network management.</p>
+                        </li>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>IT & Education Coordinator</h4>
+                        <span class="casa">Funesl Academy C.A</span>
+                        <span class="fecha">2016 - Present</span>
+                        <li>
+                        <p>Designed and supervised the development of the corporate website.</p>
+                        </li>
+                        <li>
+                        <p>Managed end-to-end technical support for hardware and software infrastructure.</p>
+                        </li>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                        <div class="item der">
+                        <h4>Technology Platform Supervisor</h4>
+                        <span class="casa">Calliope Interactive</span>
+                        <span class="fecha">2023 - Present</span>
+                        <li>
+                        <p>Supervise technical operations and User Experience (UX) for the mobile App and website.</p>
+                        </li>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>UI/UX Designer Intern</h4>
+                        <span class="casa">Trueminds Innovations Ltd</span>
+                        <span class="fecha">2026</span>
+                        <li><p>Three-month internship focused on interface design and user experience optimization for digital platforms.</p></li>
+                        <li><p>Collaborated on developing wireframes and interactive prototypes aligned with product goals.</p></li>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/project.jpg" alt="Sistema de Gestión ProChile">
+                    <div class="overlay">
+                        <h3>ProChile</h3>
+                        <p>Software Development & Automation</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/project1.jpg" alt="Plataforma Serendipity Books">
+                    <div class="overlay">
+                        <h3>Serendipity Books</h3>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/project2.jpg" alt="Movistar Website">
+                    <div class="overlay">
+                        <h3>Movistar Website</h3>
+                        <p>Web Development & Responsive</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/project3.jpg" alt="Netflix Clone">
+                    <div class="overlay">
+                        <h3>Netflix Clone</h3>
+                        <p>Frontend Development</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/project4.jpg" alt="EcoEssence">
+                    <div class="overlay">
+                        <h3>EcoEssence</h3>
+                        <p>UI/UX Design & Website</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/project5.jpg" alt="Calliope Interactive">
+                    <div class="overlay">
+                        <h3>Calliope</h3>
+                        <p>Technical Supervision & UX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO-->
+    <section id="contact" class="contact">
+        <div class="contenido-seccion">
+            <h2>Contact</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.jpg" alt="mapa">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Caracas - Venezuela
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +58 4241945619
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: diasisi.dev@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://github.com/DiaSisi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/diasisi/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
