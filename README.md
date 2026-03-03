@@ -1,22 +1,23 @@
-# Diana's Developer Portfolio 🌟
+### Diana's Developer Portfolio 🌟
+A responsive portfolio showcasing my frontend development projects and engineering skills.
 
-A responsive portfolio showcasing my frontend development projects and design skills.
-
-## Featured Projects
-
-### 🚀 Serendipity Books
-Digital library platform design (Figma)  
-**Tech:** Mobile-first UX, Payment flows, Admin dashboards
+### Featured Projects
+🚀 Serendipity Books
+Digital library platform design focusing on user experience.
+Key focus: Mobile-first UX and intuitive navigation flows.
 
 ### 🏛 SQL Embassy System
-Diplomatic workflow database  
-**Tech:** SQL Server, PHP.
+Diplomatic workflow database for process optimization.
+Tech: SQL Server, PHP.
 
-## & Others...
+### Technical Skills
+Documentation: Experience translating complex technical docs (e.g., Keycloak).
 
-## Setup
-```bash
-git clone https://github.com/DiaSisi/portfolio.git
-cd portfolio
-npm install
-npm start
+Organization: Knowledge management using Notion for workflow structuring.
+
+Frontend: Clean CSS implementation using object-fit and Flexbox for visual consistency.
+
+### How to View
+Clone the repository: git clone https://github.com/DiaSisi/portfolio-diasisi.git
+
+Open index.html in your browser.
